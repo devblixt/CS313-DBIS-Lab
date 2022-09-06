@@ -28,3 +28,10 @@ CREATE TABLE shipment(
     FOREIGN KEY (`supplier-no`) REFERENCES supplier(`supplier-no`)
     );
 
+-- Q3) Inserting a tuple into each table
+
+INSERT INTO part VALUES (1000,'Steel Bolt','Black',1);
+INSERT INTO supplier VALUES (2000,'Adithya Narayan','Trivandrum','Airport Bank');
+INSERT INTO shipment VALUES(3000,1000,2000,'2022-09-07',100,1);
+
+-- Q5) 
